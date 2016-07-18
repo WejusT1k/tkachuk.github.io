@@ -1,0 +1,175 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.top_header{
+	padding-top: 20px;
+	height: 1022px;
+	overflow: hidden;
+	background-image: url(../images/banner_background.jpg);
+}
+
+.top_menu ul{
+	list-style-type: none;
+}
+.top_menu ul li,
+.top_menu_right ul li{
+	font-size: 14px;
+	color: black;
+	padding: 10px;
+	display: inline-block;
+}
+.top_menu ul li:hover,
+.top_menu_right ul li:hover{
+	color:blue;
+}
+.help{
+	color:#8c8f94!important;
+}
+.help:hover{
+	color: blue!important;
+}
+.getApp,
+.iphone_links a:first-child{
+	background-color: #267df4;
+	padding: 10px;
+	border-radius: 20%/50%;
+}
+.getApp i{
+	margin-right: 5px;
+}
+.getApp li{
+	color: white!important;
+}
+.top_btn i{
+	font-size: 24px;
+}
+.top_btn{
+	float: left;
+	margin-left: 20px;
+	top: 25px;
+	position: absolute;
+}
+.top_btn a{
+	color: #8c8f94;
+}
+.logo{
+	padding-left: 100px;
+	padding-top: 25px;
+}
+.text_in_header{
+	font-family: "RobotoLight";
+	text-align: center;
+	padding-top: 100px;
+}
+.text_in_header h1{
+	font-size: 62px;
+	margin: 0;
+}
+.text_in_header p{
+	font-weight: bolder;
+	color:#8c8f94;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.watch_video,
+.iphone_links a:nth-child(2){
+	border:1px solid #dadcdf;
+	background-color: transparent;
+	padding: 10px 30px;
+	border-radius: 20px/30px;
+}
+.text_in_header a i {
+	margin-right: 10px;
+}
+.text_in_header a{
+	color: black;
+}
+.iphone_header{
+	margin-top: 110px;
+}
+.text_with_icon i{
+	font-size: 48px;
+	color: #267df4;
+}
+.text_with_icon {
+	padding-top: 40px;
+}
+.text_with_icon h3{
+	font-size: 26px;
+	font-weight: normal;
+}
+.text_with_icon p,
+.iphone_number p,
+.map p{
+	color:#8c8f94;
+	font-size: 20px;
+}
+.iphone_left img{
+	margin-left: -400px;
+}
+.iphone_number h3,
+.map h3{
+	font-size: 42px;
+	font-weight: normal;
+}
+.map,
+.iphone{
+	padding-top: 10%;
+}
+.icons{
+	margin-bottom: 150px;
+}
+.iphone_links a:first-child{
+	border-radius: 10%/50%;
+	font-size: 16px;
+	margin-right: 70px;
+	color: #fff;
+	padding: 10px 10px 10px 15px;
+}
+.iphone_links{
+	padding-top: 50px;
+}
+.iphone_links i{
+	margin-left: 35px;
+}
+.partners_links{
+	padding-top: 30px;
+}
+.partners_links a{
+	margin-right: 40px;
+}
+.partners{
+	text-transform: uppercase;
+}
+.map_img{
+	overflow: hidden;
+}
+.iphone_links a:nth-child(2){
+	color: black;
+}
